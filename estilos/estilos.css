@@ -1,0 +1,212 @@
+@import url('reset.css');
+
+/*Los estilos generales*/
+
+body{
+    background-image: url(../imagenes/bb13403c9c2dca43727a3abb802a4cff.jpg);
+        
+}
+
+#wrap{
+    width: 1300px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: auto;
+    clear: both;
+}
+.borde{
+    padding: 0px 0px 5px 0px;
+    border: #9c27b0  5px dashed;
+    border-radius: 20px;
+
+}
+
+
+/* Seccion general -----------------------------------------------------------*/
+
+a{   text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    width: 100%;
+    float: left;
+    background: #d1c4e9; /* Old browsers */
+    background: -moz-linear-gradient(top, #d1c4e9 0%, #b388ff  100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d1c4e9 0%,#b388ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d1c4e9 0%,#b388ff  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1c4e9', endColorstr='#b388ff ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 0px 3px 5px #d1c4e9 ;
+}
+
+#subheader{
+    width: 1200px;
+    margin: auto;
+    
+}
+
+#logotipo{
+    
+    float: left;
+    width: 500px;
+    padding: 10px 0px;
+    
+}
+
+#logotipo a{
+    font-size: 80px;
+    color: #880e4f ;
+    
+}
+
+#logotipo a:hover{text-decoration: none;}
+
+
+/*--Menu--*/
+
+header #subheader nav{
+    float: left;
+    width: 660px;
+    padding: 40px 0px;
+    text-align: center;
+    
+}
+
+header #subheader nav ul li{
+    display: inline;/*elemtos mostrados en linea*/
+     
+    
+}
+
+header #subheader nav ul li a {
+    color: #311b92 ;
+    font-size:35px;
+    padding: 15px;
+    border-radius:2px;
+    
+}
+
+header #subheader nav ul li a:hover{
+    color:#80cbc4  ;
+    background: #9575cd  ;
+    text-decoration: none;
+}
+
+/*Pie de pagina GENERAL*/
+
+.pie{
+    padding: auto;
+    width: 100%;
+    float: left;
+    @font-face
+    font-family: cursiva;
+    background: #d1c4e9; /* Old browsers */
+    background: -moz-linear-gradient(top, #d1c4e9 0%, #b388ff  100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d1c4e9 0%,#b388ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d1c4e9 0%,#b388ff  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1c4e9', endColorstr='#b388ff ',GradientType=0 ); /* IE6-9 */
+        box-shadow: 0px 3px 5px #d1c4e9 ;
+    margin-top: 20px;
+}
+
+.letra{
+    font-size: 15px;
+    padding-left: auto;
+}
+
+#redes-s{  
+    float: left;
+    width: 405px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+#derechos{
+    float: right;
+    width: 600px;
+    padding-top: 30px;
+}
+
+.h3{
+    font-size: 18x;  
+}
+
+
+/*Fin de Seccion general----------------------------------------------------------------------*/
+
+#main{
+    background: #ce93d8 ;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+
+/*Articulos-*/
+
+#contenido{
+    width: 100%;
+    float: left;
+    padding: 20px;   
+}
+
+#contenido article{
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    border-top: #6666FF outset;
+    border-left: #6666FF outset;
+}
+
+#contenido article .titulo{
+    font-size: 60px;
+    color:#330066;
+}
+
+#contenido article .titulo1{
+    font-size: 70px;
+    color:#330066;
+}
+
+#contenido article hgroup a{text-decoration: none;}
+
+
+.thumb{ /*imagen formato*/
+    width: 220px; /*largo*/
+    height: 250px;/*ancho*/
+    float: left;/*elementos a la izquierda*/
+    margin: 0px 10px 10px 0px;
+    
+}
+
+.thumb1{ /*imagen formato*/
+    width: 900px; /*largo*/
+    height: 490px;/*ancho*/
+    float: left;/*elementos a la izquierda*/
+    margin: 0px 10px 10px 0px;
+    
+}
+.thumb2{ /*imagen formato*/
+    width: 1200px; /*largo*/
+    height: 790px;/*ancho*/
+    float: left;/*elementos a la izquierda*/
+    margin: 0px 10px 10px 0px;
+    
+}
+
+#contenido article p{
+    color: #004d40 ;
+    font-size:23px;
+    text-align: justify;
+    line-height: 27px;/*espaciando entre cada linea*/
+}
+#contenido article h1{
+    font-size:33px;
+}
+
+
